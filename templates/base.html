@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    {% load static tailwind_tags %}
+<head>
+    {% tailwind_css %}
+    <title>Título de la página</title>
+</head>
+<body>
+
+</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu página</title>
+</head>
+<body>
+
+    <header>
+        <h1>Encabezado Principal</h1>
+    </header>
+    { % block content}{% endblock content %}
+    <nav>
+        <!-- Aquí puedes colocar tu menú de navegación -->
+    </nav>
+
+    <section>
+        <h2>Sección Principal</h2>
+        <p>Este es un párrafo de ejemplo para la sección principal de tu página.</p>
+    </section>
+
+    <aside>
+        <!-- Este es un espacio para contenido adicional, como publicidad o enlaces externos -->
+    </aside>
+
+    <footer>
+        <p>Este es el pie de página de tu sitio.</p>
+    </footer>
+
+</body>
+</html>
